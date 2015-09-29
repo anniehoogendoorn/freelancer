@@ -1,0 +1,30 @@
+/* HEADER */
+.navbar {
+  background: #FFF;
+  height: 72px;
+}
+
+.navbar-default .navbar-nav li a {
+  text-transform: uppercase;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #4e5763;
+  font-size: 14px;
+}
+
+.navbar-default .navbar-nav li a:hover{
+  color: #008bcb;
+  font-size: 14px;
+}
+
+.btn-warning.navbar-btn {
+    color: #fff !important;
+    text-transform: none !important;
+    background-color: #f77d0e !important;
+    padding: 6px 13px !important;
+    font-size: 14px !important;
+    border-radius: 3px;
+}
+
+.btn-warning.navbar-btn:hover {
+  background-color: #ec7508 !important;
+}
