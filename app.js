@@ -7,9 +7,9 @@ freelancer.config(function($stateProvider, $urlRouterProvider) {
       'header': {
         templateUrl: 'partials/header.html'
       },
-      // 'body': {
-      //   templateUrl: 'partials/home.html',
-      // },
+      'home-banner': {
+        templateUrl: 'partials/home-banner.html',
+      },
     }
   })
 });
